@@ -1,4 +1,4 @@
-const BASE = ''  // Vite proxies /auth, /leads etc to Lambda in dev
+const BASE = 'https://ohy67ygya4tecyunrbrigeygdm0evtoq.lambda-url.ap-southeast-2.on.aws'  // Vite proxies /auth, /leads etc to Lambda in dev
                  // For prod deploy set VITE_API_URL in Cloudflare env vars
 
 const getToken = () => localStorage.getItem('crm_token')
